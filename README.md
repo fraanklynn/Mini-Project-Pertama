@@ -1,6 +1,6 @@
-### Mini Project Pertama
 ### Nama : Franklyn Galvin Lodo
-### NIM : 2409116047
+### flowchart
+![Franklyn Galvin 2409116047](https://github.com/user-attachments/assets/e6693322-868f-4297-8781-c9044dd45ba6)
 ### 6-8 perkenalan identitas mahasiswa 
 ### print("--------------------------------------")
 ### print("Nama: Franklyn Galvin Lodo            ")
@@ -65,5 +65,4 @@
 ### output login jika salah
 ![Screenshot 2024-09-30 225101](https://github.com/user-attachments/assets/d9053fc7-25ae-40b3-b644-a0721154708f)
 
-### flowchart
-![Franklyn Galvin 2409116047](https://github.com/user-attachments/assets/e6693322-868f-4297-8781-c9044dd45ba6)
+
