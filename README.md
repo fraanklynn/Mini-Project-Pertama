@@ -1,15 +1,15 @@
-#Mini Project Pertama
-Nama : Franklyn Galvin Lodo
-NIM : 2409116047
-6-8 perkenalan identitas mahasiswa 
-print("--------------------------------------")
-print("Nama: Franklyn Galvin Lodo            ")
-print("NIM: 2409116047                       ")
-print("Tugas Praktikum Dasar-Dasar Pemograman")
-print("--------------------------------------")
-11-19 login sederhana
-#Login sederhana
-nama = "Franklyn Galvin Lodo"
+# Mini Project Pertama
+# Nama : Franklyn Galvin Lodo
+# NIM : 2409116047
+# 6-8 perkenalan identitas mahasiswa 
+# print("--------------------------------------")
+# print("Nama: Franklyn Galvin Lodo            ")
+# print("NIM: 2409116047                       ")
+# print("Tugas Praktikum Dasar-Dasar Pemograman")
+# print("--------------------------------------")
+# 11-19 login sederhana
+# Login sederhana
+# nama = "Franklyn Galvin Lodo"
 NIM = "2409116047"
 
 isi_nama = input("Masukkan nama:")
