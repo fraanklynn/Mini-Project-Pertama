@@ -1,6 +1,6 @@
 ### Nama : Franklyn Galvin Lodo
 ### flowchart
-![Franklyn Galvin 2409116047](https://github.com/user-attachments/assets/e6693322-868f-4297-8781-c9044dd45ba6)
+![Franklyn Galvin 2409116047 (1)](https://github.com/user-attachments/assets/7cb1aa8b-48c0-4803-b7f9-f595bed898f7)
 ### 6-8 perkenalan identitas mahasiswa 
 ### print("--------------------------------------")
 ### print("Nama: Franklyn Galvin Lodo            ")
