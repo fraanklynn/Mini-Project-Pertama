@@ -15,37 +15,38 @@
 ## selanjutnya memakai (if ==) agar login berhasil dan jika salah outputnya akan berbeda
 ### if isi_nama == nama and isi_NIM == NIM:
 ### print("Login Berhasil!")
-## Selanjutnya memakai indikator lanjut = 'yes' agar saat memakai while tidak salah
+## Selanjutnya memakai indikator lanjut = 'yes' agar saat memakai while/looping tidak salah
 ### lanjut = 'yes'
-### Menghitung Gaji Karyawan
-
-### while lanjut == yes adalah loopingnya
+## Menghitung Gaji Karyawan
+## while lanjut == yes adalah loopingnya
 ### while lanjut == 'yes':
+## baris 1-3 pengisian jam kerja, tarif kerja , dan gaji karyawan memakai float mengapa? jika jam kerja memakai koma maka tarif kerja akan disesuaikan
 ### jam_kerja = float(input("Masukkan jam kerja:"))
 ### tarif_kerja = float(input("Masukkan tarif kerja:"))
 ### gaji_karyawan = jam_kerja * tarif_kerja
-### 28-31 perhitungan gaji karyawan jika jam kerja diatas 160
+## selanjutnya jika jam kerja di atas 160 maka akan ada bonus tarif kerja sebesar 10% codingnya seperti dibawah
 ### if jam_kerja > 160:
 ### total_gaji = gaji_karyawan + gaji_karyawan * 0.10
 ### print("Total gaji karyawan:")
 ### print(total_gaji)
-### 34-37 perhitungan gaji karyawan jika dibawah 160 dan diatas 0
+## selanjutnya memakai elif karna jika ada jam kerja diatas 0 dan dibawah 160 maka gaji dibayar sesuai tarif kerja
 ### elif jam_kerja > 0:
 ### gaji = gaji_karyawan
 ### print("Total gaji karyawan:")
 ### print(gaji)
-### 39-40 jika karyawan tidak bekerja/minus
+## selanjutnya jika ada karyawan yang tidak bekerja atau jam kerja dibawah 0/minus maka gaji tidak dapat dibayar
 ### else:
 ### print("gaji tidak dapat dibayar")
-### 42 input untuk loopingnya
+## lalu ulang = input lagi untuk mengetahui ingin menghitung gaji karyawan lagi atau tidak 
 ### ulang= input("Apakah masih ingin menghitung gaji karyawan lagi? (yes/no):")
-### 44-47 pengulangan atau tidaknya menghitung gaji karyawan
+## jika yes maka akan otomatis mengulang dari input jam kerja 
 ### if ulang == 'yes':
 ### lanjut = 'yes'
+## jika no maka akan keluar dari program 
 ### else:
 ### lanjut = 'no'
 ### print("Terimakasih sudah menghitung gaji karyawan")
-### 50-51 jika salah mengisi login
+## jika nama atau nim salah maka login akan gagal
 ### else:
 ### print("Login Gagal, Nama atau NIM salah")
 
