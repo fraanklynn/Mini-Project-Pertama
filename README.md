@@ -1,25 +1,24 @@
 ### Nama : Franklyn Galvin Lodo
 ### flowchart
 ![Franklyn Galvin 2409116047 (2)](https://github.com/user-attachments/assets/08d68f9c-1ae6-4b92-bf2d-e55033e3b69f)
-### 6-8 perkenalan identitas mahasiswa 
-### print("--------------------------------------")
+## baris 1-3 perkenalan identitas mahasiswa 
+### memakai 
 ### print("Nama: Franklyn Galvin Lodo            ")
 ### print("NIM: 2409116047                       ")
 ### print("Tugas Praktikum Dasar-Dasar Pemograman")
-### print("--------------------------------------")
-### 11-19 login sederhana
 ### Login sederhana
-### nama = "Franklyn Galvin Lodo"
-### NIM = "2409116047"
-
+## baris 1-4 menerapkan login sederhana dengan input nama dan nim memakai input
 ### isi_nama = input("Masukkan nama:")
 ### isi_NIM = input("Masukkan NIM:")
-
+### nama = "Franklyn Galvin Lodo"
+### NIM = "2409116047"
+## selanjutnya memakai (if ==) agar login berhasil dan jika salah outputnya akan berbeda
 ### if isi_nama == nama and isi_NIM == NIM:
 ### print("Login Berhasil!")
-### 21-27 perhitungan gaji karyawan 
+## Selanjutnya memakai indikator lanjut = 'yes' agar saat memakai while tidak salah
 ### lanjut = 'yes'
 ### Menghitung Gaji Karyawan
+
 ### while lanjut == yes adalah loopingnya
 ### while lanjut == 'yes':
 ### jam_kerja = float(input("Masukkan jam kerja:"))
